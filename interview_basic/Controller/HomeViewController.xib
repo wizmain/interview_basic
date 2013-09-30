@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="mainButton1" destination="25" id="37"/>
+                <outlet property="mainButton10" destination="313" id="319"/>
+                <outlet property="mainButton11" destination="315" id="320"/>
+                <outlet property="mainButton12" destination="317" id="321"/>
+                <outlet property="mainButton2" destination="26" id="38"/>
+                <outlet property="mainButton3" destination="27" id="39"/>
+                <outlet property="mainButton4" destination="28" id="40"/>
+                <outlet property="mainButton5" destination="29" id="41"/>
+                <outlet property="mainButton6" destination="30" id="42"/>
+                <outlet property="mainButton7" destination="31" id="43"/>
+                <outlet property="mainButton8" destination="32" id="44"/>
+                <outlet property="mainButton9" destination="33" id="45"/>
+                <outlet property="page1" destination="323" id="465"/>
+                <outlet property="page2" destination="324" id="466"/>
+                <outlet property="page3" destination="353" id="467"/>
+                <outlet property="page4" destination="381" id="468"/>
+                <outlet property="page5" destination="409" id="469"/>
+                <outlet property="page6" destination="437" id="470"/>
+                <outlet property="pageControl" destination="352" id="471"/>
+                <outlet property="scrollView" destination="322" id="472"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="1920" height="499"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="322">
+                    <rect key="frame" x="0.0" y="0.0" width="1920" height="499"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="323">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="main_bg.png" id="13">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo_text.png" id="4">
+                                    <rect key="frame" x="85" y="33" width="145" height="10"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo_main.png" id="9">
+                                    <rect key="frame" x="102" y="57" width="116" height="35"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="25">
+                                    <rect key="frame" x="10" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="면접시작" backgroundImage="main_icon_01.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="50"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="26">
+                                    <rect key="frame" x="85" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="나의스크랩" backgroundImage="main_icon_02.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="51"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="27">
+                                    <rect key="frame" x="162" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="영상보기" backgroundImage="main_icon_03.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="308"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="28">
+                                    <rect key="frame" x="240" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="커뮤니티" backgroundImage="main_icon_07.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="307"/>
+                                    </connections>
+                                </button>
+                                <button hidden="YES" opaque="NO" tag="5" contentMode="top" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="29">
+                                    <rect key="frame" x="10" y="221" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" backgroundImage="main_icon_10.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="306"/>
+                                    </connections>
+                                </button>
+                                <button hidden="YES" opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="30">
+                                    <rect key="frame" x="85" y="221" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" backgroundImage="main_icon_12.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="309"/>
+                                    </connections>
+                                </button>
+                                <button hidden="YES" opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="31">
+                                    <rect key="frame" x="162" y="221" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" backgroundImage="main_icon_07.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="310"/>
+                                    </connections>
+                                </button>
+                                <button hidden="YES" opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="32">
+                                    <rect key="frame" x="240" y="221" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" backgroundImage="main_icon_11.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="311"/>
+                                    </connections>
+                                </button>
+                                <button hidden="YES" opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="33">
+                                    <rect key="frame" x="10" y="311" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" backgroundImage="main_icon_08.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="312"/>
+                                    </connections>
+                                </button>
+                                <button hidden="YES" opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="313">
+                                    <rect key="frame" x="85" y="311" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" backgroundImage="main_icon_12.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="314"/>
+                                    </connections>
+                                </button>
+                                <button hidden="YES" opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="315">
+                                    <rect key="frame" x="162" y="311" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" backgroundImage="main_icon_13.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="316"/>
+                                    </connections>
+                                </button>
+                                <button hidden="YES" opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="317">
+                                    <rect key="frame" x="240" y="311" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" backgroundImage="main_icon_15.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="318"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="324">
+                            <rect key="frame" x="320" y="0.0" width="320" height="548"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="main_bg.png" id="325">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo_text.png" id="326">
+                                    <rect key="frame" x="88" y="34" width="145" height="10"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo_main2.png" id="327">
+                                    <rect key="frame" x="83" y="57" width="155" height="35"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="328">
+                                    <rect key="frame" x="5" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="경영・사무" backgroundImage="main2_01.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="341"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" id="329">
+                                    <rect key="frame" x="84" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="95" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="마케팅・무역・유통" backgroundImage="main2_02.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="343"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" id="330">
+                                    <rect key="frame" x="164" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="95" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="서비스・교육금융・유통" backgroundImage="main2_03.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="346"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="331">
+                                    <rect key="frame" x="245" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="95" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="영업・고객상담" backgroundImage="main2_04.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="351"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="17" contentMode="top" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="332">
+                                    <rect key="frame" x="5" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="95" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="제조・통신・화학・건설" backgroundImage="main2_05.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="349"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="333">
+                                    <rect key="frame" x="84" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="IT・정보통신" backgroundImage="main2_06.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="345"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="334">
+                                    <rect key="frame" x="164" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="95" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="연구개발・설계" backgroundImage="main2_07.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="350"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="335">
+                                    <rect key="frame" x="245" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="생산・제조" backgroundImage="main2_08.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="348"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="336">
+                                    <rect key="frame" x="5" y="316" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="미디어" backgroundImage="main2_09.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="347"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="337">
+                                    <rect key="frame" x="84" y="316" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="디자인" backgroundImage="main2_10.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="340"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="353">
+                            <rect key="frame" x="640" y="0.0" width="320" height="548"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="main_bg.png" id="368">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo_text.png" id="355">
+                                    <rect key="frame" x="88" y="34" width="145" height="10"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo_main3.png" id="354">
+                                    <rect key="frame" x="83" y="57" width="155" height="35"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <button opaque="NO" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="357">
+                                    <rect key="frame" x="5" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="대기업" backgroundImage="main3_01.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="369"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="26" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="358">
+                                    <rect key="frame" x="84" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="중견기업" backgroundImage="main3_02.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="380"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="27" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="356">
+                                    <rect key="frame" x="164" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="외국계기업" backgroundImage="main3_03.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="376"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="28" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="360">
+                                    <rect key="frame" x="245" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="30대그룹사" backgroundImage="main3_04.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="373"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="29" contentMode="top" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="363">
+                                    <rect key="frame" x="5" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="코스피상장" backgroundImage="main3_05.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="377"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="362">
+                                    <rect key="frame" x="84" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="병역특례" backgroundImage="main3_06.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="371"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="31" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="359">
+                                    <rect key="frame" x="164" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="인턴" backgroundImage="main3_07.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="370"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="381">
+                            <rect key="frame" x="960" y="0.0" width="320" height="548"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="main_bg.png" id="382">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo_text.png" id="395">
+                                    <rect key="frame" x="88" y="34" width="145" height="10"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo_main4.png" id="396">
+                                    <rect key="frame" x="83" y="57" width="155" height="35"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <button opaque="NO" tag="37" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="393">
+                                    <rect key="frame" x="5" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="서울・인천" backgroundImage="main4_01.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="397"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="38" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="392">
+                                    <rect key="frame" x="84" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="경기도" backgroundImage="main4_02.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="403"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="39" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="394">
+                                    <rect key="frame" x="164" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="부산・경남" backgroundImage="main4_03.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="398"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="40" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="390">
+                                    <rect key="frame" x="245" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="대구・경북" backgroundImage="main4_04.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="399"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="41" contentMode="top" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="387">
+                                    <rect key="frame" x="5" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="대전・충남" backgroundImage="main4_05.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="405"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="42" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="388">
+                                    <rect key="frame" x="84" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="충북" backgroundImage="main4_06.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="406"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="43" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="391">
+                                    <rect key="frame" x="164" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="광주・전남" backgroundImage="main4_07.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="401"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="44" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="389">
+                                    <rect key="frame" x="245" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="전북" backgroundImage="main4_08.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="400"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="45" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="383">
+                                    <rect key="frame" x="5" y="311" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="울산" backgroundImage="main4_09.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="407"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="46" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="384">
+                                    <rect key="frame" x="84" y="311" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="강원" backgroundImage="main4_10.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="404"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="47" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="385">
+                                    <rect key="frame" x="163" y="311" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="제주" backgroundImage="main4_11.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="408"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="48" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="386">
+                                    <rect key="frame" x="245" y="311" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="세종시" backgroundImage="main4_12.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="402"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="409">
+                            <rect key="frame" x="1280" y="0.0" width="320" height="548"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="main_bg.png" id="424">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo_text.png" id="411">
+                                    <rect key="frame" x="88" y="34" width="145" height="10"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo_main5.png" id="410">
+                                    <rect key="frame" x="79" y="57" width="162" height="35"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <button opaque="NO" tag="49" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="413">
+                                    <rect key="frame" x="5" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="최신채용정보" backgroundImage="main5_01.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="427"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="50" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="414">
+                                    <rect key="frame" x="84" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="특별채용" backgroundImage="main5_02.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="428"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="51" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="412">
+                                    <rect key="frame" x="164" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="행정인력지원" backgroundImage="main5_03.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="431"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="52" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="416">
+                                    <rect key="frame" x="245" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="공공기관공모" backgroundImage="main5_04.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="426"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="53" contentMode="top" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="419">
+                                    <rect key="frame" x="5" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="공개경쟁채용" backgroundImage="main5_05.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="429"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="54" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="418">
+                                    <rect key="frame" x="84" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="잡알리오" backgroundImage="main5_06.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="436"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="55" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="415">
+                                    <rect key="frame" x="164" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="워크넷" backgroundImage="main5_07.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="425"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="56" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="417">
+                                    <rect key="frame" x="245" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="공공기관공사" backgroundImage="main5_08.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="434"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="437">
+                            <rect key="frame" x="1600" y="0.0" width="320" height="548"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="main_bg.png" id="438">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo_text.png" id="451">
+                                    <rect key="frame" x="88" y="34" width="145" height="10"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo_main6.png" id="452">
+                                    <rect key="frame" x="79" y="57" width="162" height="35"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <button opaque="NO" tag="62" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="449">
+                                    <rect key="frame" x="5" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="학교공지" backgroundImage="main6_01.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="454"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="63" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="448">
+                                    <rect key="frame" x="84" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="취업공지" backgroundImage="main6_02.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="458"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="64" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="450">
+                                    <rect key="frame" x="164" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="취업가이드" backgroundImage="main6_03.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="462"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="65" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="446">
+                                    <rect key="frame" x="245" y="129" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="최신채용정보" backgroundImage="main6_04.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="464"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="66" contentMode="top" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="443">
+                                    <rect key="frame" x="5" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" backgroundImage="main6_05.png">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content="아르바이트정보">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="12" name="AppleSDGothicNeo-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="459"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="67" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="444">
+                                    <rect key="frame" x="84" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="동영상강좌" backgroundImage="main6_06.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="457"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="68" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="447">
+                                    <rect key="frame" x="164" y="222" width="70" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="80" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="행사일정" backgroundImage="main6_07.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="460"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="474"/>
+                    </connections>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="352">
+                    <rect key="frame" x="141" y="470" width="38" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="changePage:" destination="-1" eventType="valueChanged" id="473"/>
+                    </connections>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo_main.png" width="116" height="35"/>
+        <image name="logo_main2.png" width="139" height="36"/>
+        <image name="logo_main3.png" width="139" height="36"/>
+        <image name="logo_main4.png" width="140" height="36"/>
+        <image name="logo_main5.png" width="160" height="36"/>
+        <image name="logo_main6.png" width="122" height="36"/>
+        <image name="logo_text.png" width="145" height="10"/>
+        <image name="main2_01.png" width="70" height="70"/>
+        <image name="main2_02.png" width="70" height="70"/>
+        <image name="main2_03.png" width="70" height="70"/>
+        <image name="main2_04.png" width="70" height="70"/>
+        <image name="main2_05.png" width="70" height="70"/>
+        <image name="main2_06.png" width="70" height="70"/>
+        <image name="main2_07.png" width="70" height="70"/>
+        <image name="main2_08.png" width="70" height="70"/>
+        <image name="main2_09.png" width="70" height="70"/>
+        <image name="main2_10.png" width="70" height="70"/>
+        <image name="main3_01.png" width="70" height="70"/>
+        <image name="main3_02.png" width="70" height="70"/>
+        <image name="main3_03.png" width="70" height="70"/>
+        <image name="main3_04.png" width="70" height="70"/>
+        <image name="main3_05.png" width="70" height="70"/>
+        <image name="main3_06.png" width="70" height="70"/>
+        <image name="main3_07.png" width="70" height="70"/>
+        <image name="main4_01.png" width="70" height="70"/>
+        <image name="main4_02.png" width="70" height="70"/>
+        <image name="main4_03.png" width="70" height="70"/>
+        <image name="main4_04.png" width="70" height="70"/>
+        <image name="main4_05.png" width="70" height="70"/>
+        <image name="main4_06.png" width="70" height="70"/>
+        <image name="main4_07.png" width="70" height="70"/>
+        <image name="main4_08.png" width="70" height="70"/>
+        <image name="main4_09.png" width="70" height="70"/>
+        <image name="main4_10.png" width="70" height="70"/>
+        <image name="main4_11.png" width="70" height="70"/>
+        <image name="main4_12.png" width="70" height="70"/>
+        <image name="main5_01.png" width="70" height="70"/>
+        <image name="main5_02.png" width="70" height="70"/>
+        <image name="main5_03.png" width="70" height="70"/>
+        <image name="main5_04.png" width="70" height="70"/>
+        <image name="main5_05.png" width="70" height="70"/>
+        <image name="main5_06.png" width="70" height="70"/>
+        <image name="main5_07.png" width="70" height="70"/>
+        <image name="main5_08.png" width="70" height="70"/>
+        <image name="main6_01.png" width="70" height="70"/>
+        <image name="main6_02.png" width="70" height="70"/>
+        <image name="main6_03.png" width="70" height="70"/>
+        <image name="main6_04.png" width="70" height="70"/>
+        <image name="main6_05.png" width="70" height="70"/>
+        <image name="main6_06.png" width="70" height="70"/>
+        <image name="main6_07.png" width="70" height="70"/>
+        <image name="main_bg.png" width="329" height="480"/>
+        <image name="main_icon_01.png" width="70" height="70"/>
+        <image name="main_icon_02.png" width="70" height="70"/>
+        <image name="main_icon_03.png" width="70" height="70"/>
+        <image name="main_icon_07.png" width="70" height="70"/>
+        <image name="main_icon_08.png" width="70" height="70"/>
+        <image name="main_icon_10.png" width="70" height="70"/>
+        <image name="main_icon_11.png" width="70" height="70"/>
+        <image name="main_icon_12.png" width="70" height="70"/>
+        <image name="main_icon_13.png" width="70" height="70"/>
+        <image name="main_icon_15.png" width="70" height="70"/>
+    </resources>
+</document>
